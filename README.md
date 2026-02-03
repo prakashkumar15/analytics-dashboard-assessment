@@ -188,7 +188,7 @@ npm run build
 
 The dashboard has been deployed and is accessible at:
 
-**🚀 Live Dashboard URL:** [Add your deployment URL here]
+**🚀 Live Dashboard URL:** https://prakashkumar15-analytics-dashboard.vercel.app/
 
 ### Deployment Platform Used
 
