@@ -1,7 +1,3 @@
-
-
-
-
 import fs from "fs";
 import path from "path";
 import Papa from "papaparse";
@@ -32,7 +28,6 @@ export function loadCSVOnce(): Vehicle[] {
 
   const filePath = path.join(
     process.cwd(),
-    "..",
     "data-to-visualize",
     "Electric_Vehicle_Population_Data.csv",
   );

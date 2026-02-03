@@ -47,7 +47,6 @@ export default function Home() {
   const fetchData = useCallback((currentPage: number, currentLimit: number) => {
     fetch(`/api?page=${currentPage}&limit=${currentLimit}`)
       .then(async (res) => {
-        console.log("API response status:", res.status);
         if (!res.ok) {
           throw new Error("API failed");
         }
@@ -101,7 +100,6 @@ export default function Home() {
     setPage(1); // reset to first page
   };
 
-  console.log("Rendered Home with data:", data);
 
   return (
     <div className="bg-gray-50">
